@@ -20,7 +20,7 @@ export default function SignIn() {
   };
 
   const handleLogin = async () => {
-    const url = `http://localhost:1337/api/auth/local`;
+    const url = `https://chat-app-limi.onrender.com/api/auth/local`;
     try {
       dispatch(signInStart())
       if (user.identifier && user.password) {  

@@ -17,7 +17,7 @@ export default function SignUp() {
   };
 
   const handleSignUp = async () => {
-    const url = `http://localhost:1337/api/auth/local/register`;
+    const url = `https://chat-app-limi.onrender.com/api/auth/local/register`;
     try {
       if (user.username && user.email && user.password) {
         const res = await axios.post(url, user);

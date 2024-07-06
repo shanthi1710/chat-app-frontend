@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:1337');  
+const socket = io('https://chat-app-limi.onrender.com');  
 
 
 export default function UserChat() {
